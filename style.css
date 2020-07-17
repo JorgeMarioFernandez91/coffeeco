@@ -1,0 +1,411 @@
+
+html, body {
+    height: 100%;
+  }
+
+.welcome-banner {
+    /* background-image: url(https://images.unsplash.com/photo-1447933601403-0c6688de566e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1912&q=80); */
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ), url(https://images.unsplash.com/photo-1511537190424-bbbab87ac5eb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
+
+    width: 100%;
+    height: 95%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.select_language {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),url(https://images.unsplash.com/photo-1513530176992-0cf39c4cbed4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
+
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.thank-you {
+    /* background-image: url(https://images.unsplash.com/photo-1447933601403-0c6688de566e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1912&q=80); */
+    background-image:  url(https://images.unsplash.com/photo-1499744937866-d7e566a20a61?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
+
+    width: 100%;
+    height: 80%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.welcome-sign {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 18%;
+    font-weight: bold;
+    text-transform: uppercase
+    /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
+}
+
+.welcome-banner-button {
+    margin-top: 5%;
+    color: white;
+    font-size: 20px;
+}
+
+.select-lang-eng {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.select-lang-esp {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.select-lang-form {
+    display: flex;
+    margin-top: 10%;
+    justify-content: center;
+}
+
+.select-lang-text {
+    color: white;
+    max-height: 10%;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 15%;
+    font-weight: bold;
+    text-transform: uppercase
+}
+
+
+.welcome-button {
+    display: flex;
+    justify-content: center;
+}
+
+.container-card-img {
+    height: 300px;
+    width: 100%;
+}
+
+.service-text, .products-text {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    font-size: 30px;
+}
+
+.about-text {
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 50px;
+    font-size: 30px;
+}
+
+.contact-text {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    font-size: 30px;
+}
+
+.tostadora {
+    background-image: url(./images/rodrigo-flores-NQYhyday55A-unsplash.jpg);
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+.trilladora {
+    background-image: url(./images/gregory-hayes-Jmc0PORTQ-A-unsplash.jpg);
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+.product-1 {
+    background-image: url(./images/coffeebag_3.jpeg);
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+.product-2 {
+    background-image: url(./images/coffeebag_2.jpeg);
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+.product-3 {
+    background-image: url(./images/coffeebag_1.jpeg);
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+
+.card-img-top {
+    background-image: url(https://images.unsplash.com/reserve/oIpwxeeSPy1cnwYpqJ1w_Dufer%20Collateral%20test.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=916&q=80);
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+.carousel-img-2 {
+    background-image: url(./images/rotated-maria-fernanda-gonzalez-kWVXCmyB9so-unsplash.jpeg);
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+.carousel-img-3 {
+    background-image: url(./images/rotated-nathan-dumlao-vbt-Fp3b5FA-unsplash.jpg);
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+.carousel-img-1 {
+    background-image: url(./images/tina-guina-obV_LM0KjxY-unsplash.jpg);
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+.carousel-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+hr {
+    width: 80%;
+}
+
+.row {
+    min-height: 300px;
+}
+
+.about-image-1 {
+    background-image: url(images/coffee_plant.jpeg);
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+.about-image-2 {
+    background-image: url(./images/coffee_collecting_native.jpeg);
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+.about-image-3 {
+    background-image: url(./images/willis.jpeg);
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+.about-image-4 {
+    background-image: url(./images/dried_green_bean.jpeg);
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+.about-image-5 {
+    background-image: url(./images/toasted_brown_beans.jpeg);
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+.form-group {
+    justify-content: center;
+}
+
+p {
+    text-align: justify;
+}
+
+.card {
+    min-width: 300px;
+    min-height: 300px;
+    margin-bottom: 25px;
+    margin-right: 10px;
+}
+
+#services, #contact {
+    background-color: #f8f9fa;
+}
+
+#products, #services, #contact {
+    min-height: 100%;
+}
+
+#products {
+    max-height: 100%;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.product-card-spacing {
+    margin: 10px;
+}
+
+.prod-bttn-spacing {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+input {
+    width: 15%;
+    text-align: center;
+}
+
+input.checkout-form {
+    width: 50%
+}
+
+/* to help with check out cart row height */
+.row {
+    min-height: 0px;
+}
+
+/* Page content */
+.content {
+    padding: 16px;
+  }
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+  }
+
+  /* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+    padding-top: 102px;
+  }
+
+#cart {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+
+.checkout-btn-format {
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    margin-left: 40%;
+}
+
+.checkout-btn {
+    width: 100px;
+}
+
+.checkout-summary {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 25%;
+}
+
+.checkout-price-frmt {
+    margin-left: 20px;
+}
+
+.checkout-total-frmt {
+    margin-left: 111px;
+}
+
+.checkout-count-frmt-1 {
+    margin-left: 30px;
+}
+
+.checkout-count-frmt-2 {
+    margin-left: 20px;
+}
+
+.checkout-count-frmt-3 {
+    margin-left: 23px;
+}
+
+form.checkout {
+    padding: 10px;
+}
+
+.checkout-row-frmt {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 40px;
+}
+
+.order-final-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.contact-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.order-msg-success-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.order-msg-success-text {
+    display: flex;
+    justify-content: center;
+    margin-top: 22%;
+    color: white;
+}
