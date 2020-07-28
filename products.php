@@ -35,15 +35,17 @@
     </div>
     <div class="carousel-btn">
 
-        <form method="post" action="lang_order_prod.php">
-                <input type="hidden" name="lang" value='<?php $language; ?>' >
+        <form method="post" action="lang.php">
+        
+            <input type="hidden" name="lang" value='<?php $language; ?>' >
+            <input type="hidden" name="destination" value="order_prod">
+            <div class="select-lang-eng">
+                <button type="submit" class="btn btn-dark">
+                    <?php echo $product_btn; ?>
+                </button>
+            </div>
 
-                <div class="select-lang-eng">
-                    <button type="submit" class="btn btn-dark">
-                        <?php echo $product_btn; ?>
-                    </button>
-                </div>
-            </form>
+        </form>
     </div>
 
     

@@ -1,18 +1,4 @@
-<?php
-    session_start();
-
-    // language variable
-    $language = $_SESSION['language'];
-
-    // navbar variables
-    $nav_home = $_SESSION['nav_home'];
-    $nav_products = $_SESSION['nav_products'];
-    $nav_services = $_SESSION['nav_services'];
-    $nav_about = $_SESSION['nav_about'];
-    $nav_contact = $_SESSION['nav_contact'];
-
-?>
-
+<?php include 'get_lang.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -246,7 +232,6 @@
             
                 <div class="contianer text-center">
                     
-                    
                     <form type="hidden" method="post" name="form" action="check_out.php"> 
 
                         <input type="hidden" name="data1-price" id="data1-price" value="0"> 
@@ -259,6 +244,8 @@
                         <input type="hidden" name="data3-count" id="data3-count" value="0">
 
                         <input type="hidden" name="data4-price" id="data4-price" value="0"> 
+
+                        <input type="hidden" name="destination" value="check_out">
 
                         <input class="checkout-btn btn btn-dark" onclick="passIt()" type="submit" value="Submit"> 
 

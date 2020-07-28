@@ -78,7 +78,8 @@ function displayItems(prod_name, prod_num, count) {
 
     document.getElementById(item).innerHTML = prod_name;
     document.getElementById(total_items).innerHTML = 'x ' + count;
-    document.getElementById(price).innerHTML = "$ " + total_cost;
+    // toFixed ensures we don't get too many digits after the decimal point
+    document.getElementById(price).innerHTML = "$ " + total_cost.toFixed(2);    
 
     var item1_total_cost = document.getElementById('price_prod1').innerHTML;
     var item2_total_cost = document.getElementById('price_prod2').innerHTML;
@@ -130,11 +131,3 @@ function passIt(){
     document.getElementById('data2-count').value = document.getElementById('total_prod2').innerHTML;
     document.getElementById('data3-count').value = document.getElementById('total_prod3').innerHTML;
 }
-
-
-
-
-
-
-
-

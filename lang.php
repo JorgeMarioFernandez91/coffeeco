@@ -2,8 +2,11 @@
 
     session_start();
 
-    $lang = $_POST['lang'];
-
+    $dest = $_POST['destination'];
+    
+    $_SESSION['destination'] = $dest;
+    
+    $lang = $_POST['language'];
     $_SESSION['language'] = $lang;
 
     if ($lang == "eng"){
@@ -32,6 +35,8 @@
     }
     else if ($lang == "esp"){
 
+        $_SESSION['nav_lang'] = "eng";
+
         // navbar variables
         $_SESSION['nav_home'] = "Inicio";
         $_SESSION['nav_products'] = "Productos";
@@ -54,7 +59,9 @@
         // contact variables
     }
 
+    
     // redirect to home.php with these new values 
-    header("Location: ./home.php");
+    header("Location: ./" . $dest . ".php");
+    
 
 ?>

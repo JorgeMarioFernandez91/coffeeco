@@ -45,8 +45,9 @@
         <div class="form-row select-lang-form">
 
             <form method="post" action="lang.php">
+                <!-- move to lang.php which determines language values for the page after, in this case it's home.php -->
                 <input type="hidden" name="lang" value="eng">
-
+                <input type="hidden" name="destination" value="home">
                 <div class="select-lang-eng">
                     <button type="submit" class="btn btn-warning welcome-banner-button">
                         English
@@ -55,8 +56,8 @@
             </form>
 
             <form method="post" action="lang.php">
-                <input type="hidden" name="lang" value="esp">
-
+                <input type="hidden" name="language" value="esp">
+                <input type="hidden" name="destination" value="home">
                 <div class="select-lang-esp">
                     <button type="submit" class="btn btn-warning welcome-banner-button">
                         Español
