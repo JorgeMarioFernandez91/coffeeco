@@ -17,8 +17,6 @@
   
   <div class="justify-content-end row no-gutters">
 
-  <?php echo $dest ?>
-
     <form method="post" action="lang.php">
         <!-- helps to let the website know where to return to after switching the language -->
         <?php 

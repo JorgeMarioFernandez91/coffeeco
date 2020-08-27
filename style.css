@@ -409,3 +409,14 @@ form.checkout {
     margin-top: 22%;
     color: white;
 }
+
+/* .card class is meant to override bootstraps default card settings */
+.card {
+    min-height: 20px;
+}
+
+/* here we use id to ensure that the .card class changes
+   this is because id's have the highest priority */
+.card #about-container  {
+    min-height: 20px;
+}

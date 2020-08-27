@@ -40,6 +40,7 @@
             <br>
             <br>
             Por favor seleccione un idioma
+            <?php echo "testing php!"; ?>
         </div>
 
         <div class="form-row select-lang-form">

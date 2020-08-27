@@ -1,9 +1,20 @@
 <section id="about">
     <div class="container about-text">
-        About
+        <?php echo $about_title; ?>
     </div>
 
     <div class="container">
+        <div class="card" id="about-container">
+            <div class="card-body" >
+                <?php echo $about_info_1; ?>
+                <br/>
+                <br/>
+                <?php echo $about_info_2; ?>
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="container">
         <div class="card mb-3" >
             <div class="row no-gutters">
                 <div class="col-md-4">
@@ -78,7 +89,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
     </div>
     <br>
 </section>
