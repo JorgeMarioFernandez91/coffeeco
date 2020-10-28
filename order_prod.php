@@ -38,7 +38,7 @@
     <?php
         $servername = "localhost";
         $username = "root";
-        $password = "1BOOBies12";
+        $password = "";
         $dbname = "coffee";
 
         // Create connection
